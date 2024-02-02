@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/x-icon" href="img/logo.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>The Day Beauty</title>
+</head>
+
+<body>
+
+    <div>
+        <header>
+
+            <div class="flex">
+                <div class="navbar">
+                    <img src="img/logo.svg" alt="" class="logo">
+                    <img src="img/img1.png" alt="" class="img-1">
+                </div>
+
+                <div class="header-2">
+                    <h1 class="text-1">
+                        Be <mark class="text-2">Beautiful</mark>
+                    </h1>
+                    <h1 class="text-1">You need time for Perfection</h1>
+
+                    <button class="btn-1">Become a member</button>
+                    <button class="btn-2">See pricing</button>
+
+                    <div class="clock">
+                        <div class="clock-1">
+                            <h1 class="text-3">Grand Opening</h1>
+                            <h1 class="text-4">All items are 25% Discount for New Member!</h1>
+                        </div>
+
+                        <div id="clock" class="clock-2">
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <main>
+            <div>
+                <div class="cards">
+                    <div class="card-1">
+                        <h1 class="text-5">Swedish Deep Tissue Massage</h1>
+                        <img src="img/Line 2.png" alt="" class="img-2">
+                        <div class="things">
+                            <h1 class="text-6">Rp. 550.000,00</h1>
+                            <h1 class="text-7">SPA. 01</h1>
+                        </div>
+
+                        <div class="shadow"></div>
+                        <img src="img/img2.png" alt="" class="img-3">
+                        <h1 class="text-8">Select package</h1>
+                    </div>
+
+                    <div class="card-1">
+                        <h1 class="text-5">Facials Massage with Scrubs</h1>
+                        <img src="img/Line 2.png" alt="" class="img-2">
+                        <div class="things">
+                            <h1 class="text-6">Rp. 950.000,00</h1>
+                            <h1 class="text-7">SPA. 02</h1>
+                        </div>
+
+                        <div class="shadow"></div>
+                        <img src="img/img3.png" alt="" class="img-3">
+                        <h1 class="text-8">Select package</h1>
+                    </div>
+
+                    <div class="card-1">
+                        <h1 class="text-5">Body Treatments with Scrubs</h1>
+                        <img src="img/Line 2.png" alt="" class="img-2">
+                        <div class="things">
+                            <h1 class="text-6">Rp. 650.000,00</h1>
+                            <h1 class="text-7">SPA. 03</h1>
+                        </div>
+
+                        <div class="shadow"></div>
+                        <img src="img/img4.png" alt="" class="img-3">
+                        <h1 class="text-8">Select package</h1>
+                    </div>
+                </div>
+
+                <div class="about">
+
+                    <button class="btn-3">More services</button>
+
+                    <div class="about-scrubs">
+                        <button class="btn-4">Exclusive product</button>
+                        <h1 class="text-9">Sugar Scrubs</h1>
+                        <h1 class="text-10">Sugar scrubs brighten tired, dull-looking skin to promote healthy, smooth,
+                            and flawless
+                            skin. Sugar scrubs also fight skin aging in a natural way. </h1>
+                        <h1 class="text-11">Ingredients: brown sugar, coconut, jojoba, olive, almond, or grapeseed.</h1>
+                        <h1 class="text-13">View product
+                            <hr>
+                        </h1>
+                    </div>
+
+                    <div class="green">
+                        <img src="img/img5.png" alt="" class="img-4">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer">
+                <div class="f-1">
+                    <img src="./img/logo.svg" alt="" class="logo-2">
+                    <a href="" class="text-14">© 2021</a>
+                    <a href="" class="text-15">All right reserved.</a>
+                </div>
+
+                <div class="f-2">
+                    <a href="" class="text-16">About</a>
+                    <a href="" class="text-17">Profile</a>
+                    <a href="" class="text-18">Services</a>
+                    <a href="" class="text-19">Pricing</a>
+                </div>
+
+                <div class="f-3">
+                    <a href="" class="text-20">Articles</a>
+                    <a href="" class="text-21">Healthline</a>
+                    <a href="" class="text-22">News</a>
+                    <a href="" class="text-23">Promos</a>
+                </div>
+
+                <div class="f-4">
+                    <a href="" class="text-24">Contact</a>
+                    <a href="tel: (0351) 2788 2331" class="text-25">
+                        <i class="fa fa-phone"></i>(0351) 2788 2331
+                    </a>
+                    <a href="sms: 0812 2000 9009" class="text-25">
+                        <i class="fa fa-whatsapp"></i>0812 2000 9009
+                    </a>
+                </div>
+
+                <div class="f-5">
+                    <a href="" class="text-26">Get early promos</a>
+                    <input type="email" class="inp" placeholder="YOUR EMAIL">
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+    <script>
+        window.onload = function () {
+            window.setInterval(function () {
+                let date = new Date();
+
+                let hours = date.getHours();
+                let minutes = date.getMinutes();
+                let seconds = date.getSeconds();
+
+                let clock = hours + ":" + minutes + ":" + seconds;
+                document.getElementById("clock").innerHTML = clock;
+            }
+            )
+        }
+    </script>
+
+</body>
+
+</html>
